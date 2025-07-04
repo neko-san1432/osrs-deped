@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./ambot.js"></script>
+    <title>Service Recorder</title>
+</head>
+
+<body>
+    <form action="submit">
+        <div style="display: flex;align-items: center;justify-content: center;">
+            <label for="fname"></label>
+            <input type="text" id="fname" placeholder="First Name" required>
+
+            <label for="mname"></label>
+            <input type="text" id="mname" placeholder="Middle Name" required>
+
+            <label for="lname"></label>
+            <input type="text" id="lname" placeholder="Last Name" required>
+        </div>
+        <div style="display: flex;align-items: center;justify-content: center;" id ="servicelist">
+            
+        </div>
+        <input type="button" id="addRow" value="Add Service">
+        <input type="button" action="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
