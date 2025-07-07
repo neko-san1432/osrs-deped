@@ -2,9 +2,9 @@
 import { createConnection } from 'mysql2';
 
 const connection = createConnection({
-  host: '192.168.0.133',
-  user: 'depeddavsur',
-  password: '@Deped2025',
+  host: '',
+  user: '',
+  password: '',
   database: 'your_database'
 });
 
